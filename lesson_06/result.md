@@ -1,4 +1,4 @@
-####vec<int>[1'000'000] fast sort test :
+vec<int>[1'000'000] fast sort test :
 |  index | duration  |
 |---|---|
 1       |       203ms
@@ -18,7 +18,7 @@ longest : 203
 mean : 102.4
 ____
 
-####vec<double>[1'000'000] fast sort test :       
+vec<double>[1'000'000] fast sort test :       
 
 ind     |       duration
 |---|---|
@@ -37,7 +37,7 @@ shortest : 92
 longest : 115
 mean : 97.7
 ____
-####vec<int>[10'000] bubble sort test :
+vec<int>[10'000] bubble sort test :
 
 ind     |       duration
 |---|---|
@@ -57,7 +57,7 @@ longest : 215
 mean : 173.7
 ____
 
-####vec<double>[10'000] bubble sort test :
+vec<double>[10'000] bubble sort test :
 
 ind     |       duration
 |---|---|
