@@ -57,7 +57,7 @@ longest : 215
 mean : 173.7
 ____
 
-vec<double>[10'000] bubble sort test :
+        vec<double>[10'000] bubble sort test :
 
 ind     |       duration
 |---|---|

@@ -52,11 +52,11 @@ int main()
 {
 
     vector<int> base_int_vec = {};
-    for(size_t i; i < 1000000; i++){
+    for(size_t i = 0; i < 1000000; i++){
         base_int_vec.push_back(rand());
     }
     vector<double> base_double_vec = {};
-    for(size_t i; i < 1000000; i++){
+    for(size_t i = 0; i < 1000000; i++){
         base_double_vec.push_back(rand()); //for shits and giggles
     }
 
@@ -111,11 +111,11 @@ int main()
     cout <<"______________________________________________________"<<endl;
 
     vector<int> base_int_vec_bub = {};
-    for(size_t i; i < 10000; i++){
+    for(size_t i = 0; i < 10000; i++){
         base_int_vec_bub.push_back(rand());
     }
     vector<double> base_double_vec_bub = {};
-    for(size_t i; i < 10000; i++){
+    for(size_t i = 0; i < 10000; i++){
         base_double_vec_bub.push_back(rand()); //for shits and giggles
     }
 
